@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Alfred Daten 
-alfred-json -r 158 -f json > /var/www/alfred_158.json
-alfred-json -r 159 -f json > /var/www/alfred_159.json
+alfred-json -z -r 158 -f json > /var/www/alfred_158.json
+alfred-json -z -r 159 -f json > /var/www/alfred_159.json
 jq -s '.[0] * .[1]' /var/www/alfred_158.json /var/www/alfred_159.json > /var/www/alfred_merged.json 
 
 # Node Daten 
