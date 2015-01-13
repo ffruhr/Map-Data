@@ -2,11 +2,11 @@
 
 Voraussetzungen: 
 
-alfred: http://downloads.open-mesh.org/batman/stable/sources/alfred/alfred-2014.4.0.tar.gz
-alfred-json: https://github.com/tcatm/alfred-json
-jq: apt-get install jq
-sed: apt-get install sed
-nginx: apt-get install nginx
+        alfred: http://downloads.open-mesh.org/batman/stable/sources/alfred/alfred-2014.4.0.tar.gz
+        alfred-json: https://github.com/tcatm/alfred-json
+        jq: apt-get install jq
+        sed: apt-get install sed
+        nginx: apt-get install nginx
 
 1 - nginx installieren und / oder konfigurieren, z.B. /var/www/ 
 
